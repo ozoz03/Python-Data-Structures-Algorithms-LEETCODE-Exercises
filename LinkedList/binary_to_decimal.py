@@ -40,14 +40,6 @@ class LinkedList:
     def binary_to_decimal(self):
         if self.head is None:
             return 0
-        # decimal_value = 0
-        # current = self.head
-        # power = 0
-        # while current is not None:
-            # decimal_value += current.value * (2 ** power)
-            # current = current.next
-            # power += 1
-        # return decimal_value 
         current = self.head
         decimal_value = 0      
         for i in range(self.length):
